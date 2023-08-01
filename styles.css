@@ -1,0 +1,64 @@
+.title {
+    text-align: left;
+   color:  #00a0c6;
+   font-style: italic;  }
+  
+  .image-container img {
+    width: 5%; 
+    height: auto;
+    margin-right: 10px; /*espaciador derecha*/
+    
+  }
+  .img-achicada {
+    width: 200px; /* ancho */
+    height: auto; /* para no deformar la imagen */
+  }
+  .custom-line {
+    border: none;
+    border-top: 1px solid #1e90ff; /*color */
+    margin: 20px 0;
+  }
+  body {
+    background-color: rgb(3, 3, 3);
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+  }
+  .parraf{
+    text-align: left;
+    color: #00a0c6;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .titulo{
+    padding: 20%;
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/03/09/04/universe-1566161_960_720.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: #0056b3;
+    border-color: #00a0c6;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-style: solid ;
+  }
